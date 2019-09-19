@@ -1,0 +1,109 @@
+Database:
+	consider  database as a container where an all the data is stored .The database is basically a systematic collection of the data which suppose to storage and manipulation of the data that you stored
+
+c>create
+u>update
+r>read
+D> delete
+
+DBMS:	
+	collection of programs which enables users to access database, manipulate data and represent data, A technology to store and retrive data with utmost efficiency along with appropirate security measures.
+----------------
+TYPES OF DBMS:
+
+* hierarchial
+-style of parent child  relationship to store the data
+-it has a structure like tree with nodes
+EG: windows Registry used in window-XP
+
+* network
+-supports many to many dbs
+-complex
+EG:RDMS
+
+*RElational  DBMS
+defines reationships in the form of tables also known as relations
+mySQL
+
+*Object oriented DBMS
+-in the form of objects
+EG: post SQL
+-----------
+ADV of DBMS
+
+-	improved data sharing
+-	improved Dats security
+-	Reduction in data redundancy
+-	minimized data inconsistency
+-	interaction with user
+
+
+
+
+----------Disadv
+-inceased costs
+-compleity of backup and recovery
+-frequent upgrade
+
+
+-------------
+DBMS which organize and store the data by following the relational model is known as RDBMS
+-Relational model is designed by E.F CODD
+-In relational model all the data is stored in the form of relations
+-a/c to codd data in r-model should be logically organized and stored in the form of tables
+
+----TABLE----
+
+-table is a logical organization of data and consits of rows and columns
+-verical-column-used to represent the property of entity, Horizantal-row also called as tuples.
+-row is used to represent the property of all the individual entity
+-intesection of row en column generates the cell
+-cell is the smallest unit of table which is used to store the data
+
+---
+
+RDBMS can be used to validate in two ways
+
+-constraints
+-datatypes
+___________
+Constraints
+>NOTNULL
+>UNIQUE
+>FOREGIN KEY
+>PRIMARY KEY
+>CHECK
+>DEFAULT
+
+-----------
+NOTNULL
+
+>conatraints  restricts a column from having a NULL value. once you applies NOTNULL costraints to a column you cannot pass a null vallue to that column
+>it cannot be applicable on tale level
+-----
+UNIQUE
+
+>Unique  constraints ensure that a field or column will only have unique values,will not have an duplicate data
+>can be apppllied at column level
+---------
+primary key
+
+>this constraints uniquelyidentifes
+each record n the database
+>
+>
+prrimary key must cntaio=
+>>CHARACTERISTICS OF PRIMARY KEY
+
+-	combo of
+-
+-can have only primary key
+__ it is not mandtory to have primarykey in the table but it is recommend
+
+-----------
+table in which foregin kyey is present is known as child table
+a table in which actually belongs<primary> is known as parent table
+-foregin key must and should be defined as primary key in its parent table
+- a column assigned as a foregin key terminal can accept duplicates or null values
+
+>>
