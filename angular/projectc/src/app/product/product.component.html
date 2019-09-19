@@ -1,0 +1,16 @@
+<div class="col-md-4 offset-4 mt-4">
+    <h3 class="text-center">Add Product</h3>
+    <form #productForm="ngForm" (ngSubmit)="postProduct(productForm)">
+        <input type="text" name="name" class="form-control mb-3 mt-3" ngModel
+        #name='ngModel'  placeholder="Enter product name...">
+        
+        <input type="url" name="image" class="form-control mb-3 mt-3" ngModel
+        #image='ngModel'  placeholder="Enter description...">
+       
+              <input type="text" name="desc" class="form-control mb-3 mt-3" ngModel
+        #desc='ngModel'  placeholder="Enter description...">
+        
+          
+        <button type="submit" class="btn btn-outline-success float-right">Success</button>
+    </form>
+</div>

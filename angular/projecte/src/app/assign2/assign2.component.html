@@ -1,0 +1,22 @@
+<div class="container">
+    <table class="table-bordered table-hover mt-5 offset-md-2" >
+    <thead class="text-dark" style="color:thistle">
+        <tr>
+            <th>userId</th>
+            <th>Id</th>
+            <th>Title</th>
+            <th>Body</th>
+            </tr>
+    </thead>
+    
+    <tbody>
+        <tr *ngFor= "let user of s" class="text-secondary" style="color:thistle"> 
+            <!-- sucharitha -->
+        <td>{{user.userId}}</td>
+        <td> {{user.id }}</td>
+        <td>{{user.title | titlecase}}</td> 
+        <td>{{user.body}}</td>
+          </tr>
+    </tbody>
+
+</table> </div>

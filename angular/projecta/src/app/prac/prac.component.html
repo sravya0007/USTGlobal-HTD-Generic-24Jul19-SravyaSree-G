@@ -1,0 +1,12 @@
+<div class="container">
+    <div class="col-md-3 mt-4 float-left">
+    <div class="card card-body" *ngFor= "let fruit of prac">
+        <img src="{{fruit.img}}" alt="" class="card-img-top"
+        (click)='send(fruit)'>
+        <h4 class="card-title">{{fruit.brand}}</h4>
+
+        </div>
+    </div>
+    <app-pracdetails [pracDetails]="pracData"></app-pracdetails>
+</div>
+

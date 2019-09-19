@@ -1,0 +1,31 @@
+
+
+<table class="table-bordered table-hover mt-5 offset-md-3">
+        <thead class="bg-dark text-light">
+            <tr>
+                <td>brand</td>
+                <td>model</td>
+                <td>YOR</td>
+                <td>Cost</td>
+                <td>units_sold</td>
+                <td>update</td>
+                <td>delete</td>
+            </tr>
+        </thead>
+        
+        <tbody>
+            <tr *ngFor= "let car of carBase.cars; index as i">
+            <td>{{i+1}}</td>
+            <td> {{car.brand | titlecase}}</td>
+            <td>{{car.model | uppercase}}</td> 
+            <td>{{car.yor }}</td>
+            <td>{{car.cost}}</td>
+            <td>{{car.units_sold}}</td>
+                <td>
+                        <button  class= "btn btn-danger"
+                        (click)= "deleteCar(car)">delete</button>
+                    </td>
+        </tr>
+        </tbody>
+    
+    </table>

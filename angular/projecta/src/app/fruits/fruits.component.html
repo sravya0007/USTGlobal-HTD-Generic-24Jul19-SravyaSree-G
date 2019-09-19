@@ -1,0 +1,13 @@
+<div class="container">
+    <div class="col-md-3 mt-4 float-left">
+    <div class="card card-body" *ngFor= "let fruit of fruits">
+        <img src="{{fruit.img}}" alt="" class="card-img-top"
+        (click)='sendFruit(fruit)'>
+        <h4 class="card-title">{{fruit.brand}}</h4>
+
+        </div>
+    </div>
+    <app-fruitsdetails [fruitsDetails]="fruitData"></app-fruitsdetails>
+</div>
+
+ 

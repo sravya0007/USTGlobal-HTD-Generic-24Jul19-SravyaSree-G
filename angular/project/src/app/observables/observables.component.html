@@ -1,0 +1,16 @@
+<table>
+    <thead>
+        <tr>
+            <th>id</th>
+            <th>name</th>
+            <th>company</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let user of UserService.users,index ">
+            <td>{{i+1}}</td>
+            <td>{{user.name}}</td>
+            <td>{{user.company}}</td>
+        </tr>
+    </tbody>
+</table>

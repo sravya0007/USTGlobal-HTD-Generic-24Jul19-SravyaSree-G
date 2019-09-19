@@ -1,0 +1,57 @@
+<!-- <div class="col-md-6 offset-3">
+    <div class="card card-body col-md-12 mt-2" *ngFor="let news of ws">
+         <img src="{{}}" alt="" class="card-img-top"> 
+        <h3>{{news.title}}</h3>
+        <p>{{news.userId}}</p>
+        <p>{{news.id}}</p>
+        
+        <p>{{news.body}}</p>
+         <a href="{{news.url}}" class="btn btn-primary">Click here for more info...</a> 
+    </div>
+</div> -->
+
+<!-- <div class="row">
+    <div class="container">
+        <div class="col-md-2 float-left offset-1 md-2 card"  *ngFor= 'let i of ws'>
+            <h4>{{i.id}}</h4>
+            <img src="{{i.avatar_url}}" class="img-thumbnail">
+            <h4>{{i.node_id}}</h4>
+            <a href="{{i.url}}" class="btn btn-dark">for more information</a>
+
+        </div>
+    </div>
+</div> ------------------------------------------------------------------->
+
+
+<!-- <table class="table-bordered table-hover mt-5 offset-md-3">
+    <thead class="bg-dark text-light">
+        <tr>
+            <th>Id</th>
+            <th>Node Id</th>
+            <th>Url</th>
+            <th>Avatar Url</th>
+            </tr>
+    </thead>
+    
+    <tbody>
+        <tr *ngFor= "let user of ws">
+        <td>{{user.id}}</td>
+        <td> {{user.node_id | titlecase}}</td>
+        <td>{{user.url}}</td> 
+        <td><img src="{{i.avatar_url}}" class="img-thumbnail"></td>
+          </tr>
+    </tbody>
+
+</table> -->
+
+<div class="row"><div class="container">
+    <div class="card ">
+         <div class="col-md-2 float-left offset-1 mt-5 "  *ngFor= 'let i of ws'> 
+            <h4 class="card ">{{i.id}}</h4>
+            <img src="{{i.avatar_url}}" alt="" class="img-thumbnail">
+            <h4 class="card ">{{i.node_id}}</h4>
+           <a href="{{i.url}}" class="btn btn-dark">for morre information</a>
+           </div>
+        </div>
+    </div>
+</div>

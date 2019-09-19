@@ -1,0 +1,14 @@
+<div class="card" style="width: 18rem;">
+    <div class="card-body" *ngFor= "let p of product.product ">
+      <h5 class="card-title">{{p.name}}</h5>
+      <p class="card-text">{{p.desc}}</p>
+ <img src="{{p.image}}" alt="">
+   
+      <button type= "submit" class= " btnbtn-outline-primary"
+      (click)="updateProdut(prod)">update</button>
+          <button  class= "btn btn-danger"
+          (click)= "deleteProduct(prod)">delete</button>
+      
+    </div>
+  </div>
+

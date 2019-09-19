@@ -1,0 +1,52 @@
+<div class="container col-md-4 offest-md-4 mt-5 card card body">
+
+    <form action="" method="POST" role="form" #loginForm='ngForm' ngSubmit='printForm(loginForm)'>
+    <h4>Login</h4>
+
+    <div class="form-group">
+        <input type="email" name="username" #username='ngModel' ngModel requried minLength="5" email 
+        class="form-control" id="" placeholder="username">
+        <div *ngIf='username.touched && username.invalid'>
+            <div class="alert alert-warning"
+            *ngIf='username.errors.email'>input filed takes only email</div>
+            <div class="alert alert-danger"
+            *ngIf='username.errors.minLength'>minimum length is 5 characterts</div>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <input type="password" name="password" ngModel #password='ngModel'  requried  password
+        class="form-control" id="" placeholder="password" pattern="nanii">
+        <div *ngIf='password.touched && password.invalid'>
+            <div class="alert alert-danger" *ngIf='password.errors.pattern'>
+                pattern doesn`t match
+            </div>
+            
+        </div>
+    </div>
+
+    
+
+    <button type="submit" class="btn btn-primary" padding="90px">Submit</button>
+</form>
+</div>
+
+
+<div class="container">
+    <table class="table-hover table-bordered table-dark">
+        <thead>
+            <tr >
+                <th>index</th>
+                <th>username</th>
+                <th>password</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor='let user of u;index as i'>
+                <td>{{i+1}}</td>
+                <td>{{user.username}}</td>
+                <td>{{user.password}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
