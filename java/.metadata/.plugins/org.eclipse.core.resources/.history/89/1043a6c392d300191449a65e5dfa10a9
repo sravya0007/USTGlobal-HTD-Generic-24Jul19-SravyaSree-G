@@ -1,5 +1,0 @@
-package com.dev.lambdaa;
-
-public interface FucnInt2 {
-	public void printVal();
-}
