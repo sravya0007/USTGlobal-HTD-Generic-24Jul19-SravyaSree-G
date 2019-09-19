@@ -1,0 +1,13 @@
+class Looop 
+{
+	public static void main(String[] args) 
+	{ int p;
+		for(;;)
+		{
+		System.out.println("27 * "+i+"="+i*27);
+		
+		}
+
+				System.out.println("code ousoide the r");
+	}
+}

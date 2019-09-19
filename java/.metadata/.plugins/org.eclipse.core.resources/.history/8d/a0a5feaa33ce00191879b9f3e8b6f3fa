@@ -1,0 +1,21 @@
+package com.dev.Exception;
+
+public class ExceptionHandling1 {
+
+	public static void main (String[] args) throws Exception,CustomException{
+		// TODO Auto-generated method stub
+		System.out.println("before exceuution");	
+		s();
+		throw new  CustomException();
+		/*// without throws exception in main method 
+		 * Exception in thread "main" java.lang.Error: Unresolved compilation problem:
+		 * Unhandled exception type Exception
+		 * 
+		 * at com.dev.Exception.ExceptionHandling1.main(ExceptionHandling1.java:7)
+		 */
+		//System.out.println("after exceuution");
+	}
+	public static void s() throws Exception,NegativeArraySizeException{
+StringBuffer sb=new StringBuffer(-22);
+}
+}

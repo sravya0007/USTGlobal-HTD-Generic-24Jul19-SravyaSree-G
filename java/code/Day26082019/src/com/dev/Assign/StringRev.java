@@ -1,0 +1,16 @@
+package com.dev.Assign;
+
+import java.util.HashSet;
+
+public class StringRev {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String s="sravya";
+		char[] a=s.toCharArray();  
+		for(int i=a.length-1;i>=0;i--) {
+			 
+			System.out.println("a["+i+"] ="+a[i]);
+		}}
+
+}

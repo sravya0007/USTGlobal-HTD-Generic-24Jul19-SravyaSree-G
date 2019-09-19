@@ -1,0 +1,6 @@
+package com.dev.threadss;
+
+public class T3 implements Runnable {
+
+	
+}

@@ -1,0 +1,14 @@
+class flloat{
+
+public static void main(String []args)
+	{ float f=1.23456789f;
+
+System.out.println(f);
+//<!-- float f1=1.2345678912345;
+
+//System.out.println(f1);
+double d=1.2345678987654321;
+
+System.out.println(d);
+	}
+}

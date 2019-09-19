@@ -1,0 +1,14 @@
+
+public interface EmployeeInt {
+	
+	public boolean insertEmp(String s,Employee emp);
+	public boolean searchEmp(int i);
+	public boolean removeEmp(Employee emp);
+	public boolean updateEmp(Employee emp);
+	public int totalTax(Employee emp);
+	public int netPay(Employee emp);
+	public void salGrade(Employee emp); 
+	
+	
+	
+}

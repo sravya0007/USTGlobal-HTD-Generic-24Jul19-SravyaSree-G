@@ -1,0 +1,14 @@
+package com.dev.Assign;
+
+public class StringRev {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String s="sravya";
+		char[] ch=s.toCharArray();  
+		for(int i=ch.length;i<=0;i--){  
+		System.out.println(ch[i]);  
+		}  
+		}
+
+}

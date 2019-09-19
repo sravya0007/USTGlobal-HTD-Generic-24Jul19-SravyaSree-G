@@ -1,0 +1,23 @@
+class CharInt 
+{
+	public static void main(String[] args) 
+	{
+		char c='a';
+		int i=10;
+
+		int r=c+i;
+		System.out.println(r);
+
+			r=c-i;
+		System.out.println(r);
+
+		r=c*i;
+		System.out.println(r);
+
+		r=c/i;
+		System.out.println(r);
+
+		r=c%i;
+		System.out.println(r);
+}
+}

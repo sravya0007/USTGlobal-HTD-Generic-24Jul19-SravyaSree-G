@@ -1,0 +1,166 @@
+javascript-
+	Brain for webpages
+usrnm&paswd---->server------->db
+	   <-----     <-------
+	
+NETSCAPE-->asked Brendan eich which runs on browser side-->>mocha>>livescript>>javaScript>>European Computer Manufacture Association script	   (ECMAScript)
+ECMA-develops standards for scripting technologies-standars
+js- used to make our webpages dynamic
+-------
+can be included in both head and body
+runs directly without compiling
+->javascript is gor frontend and backend-->Node.js(both front and backend)
+(java-js),	(js-node.js)
+------
+"var" keyword is used to store data
+Declaration: 	var myName;
+assigning:		myName='sravya';
+$- in Browser, Javascript Engine is used for understanding javascript
+JS Engine is not same for all browsers
+each browser vendors develop diffrnt engines
+chrome-	V8
+FireFox-	SpiderMonkey
+IE,Medge-	chakra
+safari-	Javascript Core
+Opera-	caakan!, now using v8
+V8 is very fast and high performance
+-----------
+V8->(intepreter-->JIT)-->coverts to 0`s,1`s
+_______
+Data types
+1.primitive
+	number		var myAge=50;
+	string		var name="sravya";/'sravya';/`sravya`;
+	boolean		var alive=true/false;
+	null		var fruits=nul;--->Holds Nothing
+	undefined..so..on	<unintialized types are undefined> var myhobbies;-->myhobbies
+2. Reference
+	Array		
+	object		
+	date		
+	math		
+	functions...so...on	
+
+-------
+use of console
+->view logged msgs
+->run js code
+-->see  error msgs
+-----------
+creating OBJECT in JS var person
+variable	-
+==========
+ARRAY
+	we can store any type values in javascript
+eg:-	var fruits=['pple','banana','mango']
+index-> 0,1,2,3...........
+fruits[0];
+----------
+Date-used to track all the dates of saving ,deleting files to db
+tdysdate.getFullYear();
+tdysdate.getMonth();[jan=0,feb=1,.....]
+tdysdate.getDate();
+tdysdate.getDay();{0-sun,1-mon.............}
+-----
+math
+Math.PI
+Math.floor
+Math.ceil
+Math.round
+Math.random-	genrates random numbers --o to 1
+--------ASSIGN------
+~create 5 objects using new keyword
+~create 5 objcts using without keyword
+~create 5 arrays without using new keyword
+~with
+~loop through all arrays and  print it
+=======
+we can call the method before the declaration-named function
+function sum(n1,n2){
+}
+------ 	
+UNNAMED FUNTION-
+	(funtion (n1,n2){
+}(10,20))
+======we need paranthesis for execution
+it called as IIFE-Immediately Invoke Function Expression self invoked function
+======
+let-cant redeclare the variable
+used for FOR-loop-->no hoisting in LET-for blockscope
+=====
+const-redeclaration id possible
+only decl,with initialization is possible.
+	we can modify the variabls,but cant redeclare and reintialize
+
+
+
+
+
+=============
+FAT ARROW FUNTIONs- cant call this fat functions before delaring
+
+var sumvalue= (n1,n2)=>{
+
+for so many lines of code
+
+}
+...
+n=>{
+f.s.m.loc
+}
+
+...........
+n=>_____________for one line
+-------
+except primitive all objects are mutable
+===
+javascript doesn`t depend on the reference...even if the other  objects with same data
+...it creates a new object
+...we cn call named fnbfr declaring
+--JAVASCRIPT is Asynchronus...executes line by line;
+thousand millisec=1sec
+__________
+whnever js code complies...it sends the code to STACK ,Global execution 
+Context
+-----
+	passing a function as an argument to another function
+------
+for Each()-> is an array method
+we callmethods using " . " opertaore
+=====
+javascript variables hoist all variables to top only in the declaration of definition->as var hobbies;
+* for of is for OBJECT
+=========ARRAY METHODS========
+
+for any methods u shld know the
+	`functionalities
+	`parameters
+	`returntype
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+	

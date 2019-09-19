@@ -1,0 +1,11 @@
+class rel1 
+{
+	public static void main(String[] args) 
+	{
+		int a=65;
+		char a1='A';
+		System.out.println(a==a1);
+		System.out.println(a1==a);
+
+	}
+}

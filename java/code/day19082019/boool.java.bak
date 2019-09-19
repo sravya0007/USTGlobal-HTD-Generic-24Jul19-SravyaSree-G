@@ -1,0 +1,7 @@
+class boool{
+public ststic void main(String []args){
+boolean b= 1;
+system.out.println(b);
+boolean bb= a;
+system.out.println(bb);
+}}

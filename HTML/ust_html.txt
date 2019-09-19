@@ -1,0 +1,84 @@
+tags 
+structure
+list
+table
+gouping elements
+img
+anchor tag
+-----
+forms
+---
+thead,tbody-browser will undeerstand wts there in it
+----
+semantic element clearly explAIns its meaning to both the browser and the developer
+eg. of non-semntic - <div>,<span>
+eg.of non-semantic elements - <form>, <table>,<article>
+semantic elements of html5
+<article>
+<aside>
+<details>
+<figcaption>
+<figure>
+<footer>
+<header>
+<main>
+<mark>
+<nav>
+<section>
+<summary>
+<term>
+
+hgroup-used to wrap all heading tags
+-> in html5, div is replaced by <section>,
+HTML-used to create web pges
+-----------------
+
+CSS-for styling pages
+	-Cascading style sheet used to describe look and formatting of a document written in markup lng
+	-used wid html, for prsntation and design
+	-
+-Inline	~giving the properties in the respective tag,.<difficult to change for all the tags every time>
+-internal	~giving the properties in the head section using style tag,.<both html and css cant be mixed in a same file>
+-external
+
+++
+element selector-using the html tags
+ID selecto
+
+
+margin:  1px(t) 1px(r) 1px(b) 1px(l)
+padding: 1px(TB) 1px(LR)
+
+for blurring EFFECT IN FORMS- box-shadow: 0 0 5px  color;
+	for normal SHaDOW -- box-shadow:  5px 5px ;
+---------TABBLE__
+pseudo selector-tr:nth-child();
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
