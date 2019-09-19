@@ -1,0 +1,9 @@
+package com.dev.Collections;
+
+public class emp {
+	private String id;
+	private String name;
+	private String email;
+	private String password;
+
+}

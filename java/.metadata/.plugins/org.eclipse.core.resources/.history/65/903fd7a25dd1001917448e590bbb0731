@@ -1,0 +1,16 @@
+
+public class EmployeeImpl implements EmployeeInt {
+
+	@Override
+	public void insertData(Employee emp) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public String searchEmp() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

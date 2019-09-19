@@ -1,0 +1,66 @@
+package com.dev.Collections;
+import java.util.HashSet;
+
+
+
+public class C2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		HashSet <emp> hs=new HashSet<emp>();
+		emp d=new emp();
+		emp d1=new emp();
+		emp d2=new emp();
+		emp d3=new emp();
+		d.setId("212");
+		d.setName("cesor");
+		d.setEmail("brown@gmail.com");
+		d.setPassword("greman shepard");
+		d1.setId("343");
+		d1.setName("preethi");
+		d1.setEmail("white@gmail.com");
+		d1.setPassword("Dalmation");
+		
+		d2.setId("467");
+		d2.setName("snupy");
+		d2.setEmail("black@gmail.com");
+		d2.setPassword("Doberman");
+		
+		d3.setId("547");
+		d3.setName("pink");
+		d3.setEmail("white@gmail.com");
+		d3.setPassword("poddle");
+		
+		boolean b=hs.add(d);
+		boolean b3=hs.add(d3);
+		 boolean b1=hs.add(d1);
+		 boolean b2=hs.add(d2);
+		 System.out.println("output of add=" +b+" "+b1+" "+b2+" "+b3);
+		 System.out.println(hs);
+		 System.out.println("size of hashset hs:"+ hs.size());
+ 
+		 boolean b4=hs.contains(d1);
+		 System.out.println("contains of hashset hs:"+ b4);
+			 boolean bb=hs.remove(d);
+			 System.out.println("remove of hashset:"+ bb);
+			 
+			 d.setEmail("sravya@gmail.com");
+			 d1.setEmail("sravya@gmail.com");
+			 d2.setEmail("sravya@gmail.com");
+			 d3.setEmail("sravya@gmail.com");
+	
+				 b=hs.add(d);
+				b3=hs.add(d3);
+				b1=hs.add(d1);
+				b2=hs.add(d2);
+				 System.out.println(hs);
+							
+			 boolean b6=hs.contains(d1);
+			 System.out.println("contains of hashset hs:"+ hs.contains(d));
+			
+
+
+	}
+
+}

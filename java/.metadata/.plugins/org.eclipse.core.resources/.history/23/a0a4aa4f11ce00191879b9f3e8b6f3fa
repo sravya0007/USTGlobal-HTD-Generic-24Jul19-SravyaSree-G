@@ -1,0 +1,32 @@
+package com.dev.Strings;
+
+public class Strings {
+
+	public static void main(String[] args) {
+	String s="";
+	int[] i=new int[5];
+	i[0]=12;
+	i[1]=4;
+	i[2]=42;
+	i[3]=65;
+	i[4]=1344;
+	System.out.println(i);
+	char[] ci=new char[5];
+	ci[0]='w';
+	ci[1]='r';
+	ci[2]='a';
+	ci[3]='q';
+StringBuffer c=new StringBuffer("Hello");
+StringBuilder c1=new StringBuilder("java");
+StringBuilder c11=new StringBuilder(-1);
+	
+System.out.println(ci);
+	System.out.println(c);
+	System.out.println(c1);
+	
+		
+	
+
+	}
+
+}

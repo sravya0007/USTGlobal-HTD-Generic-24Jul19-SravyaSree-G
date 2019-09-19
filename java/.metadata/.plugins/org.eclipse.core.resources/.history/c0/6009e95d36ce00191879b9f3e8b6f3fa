@@ -1,0 +1,17 @@
+package com.dev.Exception;
+
+public class CustomException extends Exception{
+
+	public CustomException() {
+		System.out.println("custom Exception");		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

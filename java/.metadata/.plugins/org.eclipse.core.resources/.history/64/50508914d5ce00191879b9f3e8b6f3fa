@@ -1,0 +1,33 @@
+package com.dev.Exception;
+
+public class Except2 {
+
+	public static void main (String[] args) throws Exception{
+		try{
+				s();
+		int res=divide(10,0);
+		System.out.println("No Excpetion for divide");
+		System.out.println(res);
+			}
+		catch(ArithmeticException e) {
+			System.out.println("Exception caught in catch block");
+			e.printStackTrace();
+			}
+		catch(NegativeArraySizeException e) {
+			System.out.println("Exception caught in catch block");
+			e.printStackTrace();
+		}
+		}
+	public static int divide(int i,int j)throws Exception{
+		int res=i/j;
+		return res;
+		
+	}
+	
+	
+	public static void s() throws Exception{
+			StringBuffer sb=new StringBuffer(2);
+			
+	}
+	}
+

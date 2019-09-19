@@ -1,0 +1,9 @@
+package com.dev.Collections;
+
+public class ooo {
+	static int i=0101000000000;
+	public static void main(String []args) {
+		System.out.println(i);
+	}
+
+}
